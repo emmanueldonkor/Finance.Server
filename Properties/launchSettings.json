@@ -1,0 +1,50 @@
+﻿{
+  "$schema": "https://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:24274",
+      "sslPort": 44329
+    }
+  },
+  "profiles": {
+    "http": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "applicationUrl": "http://localhost:5160",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "JWT_SECRET": "This is a long secret key for JWT_SECRET",
+        "JWT_ISSUER": "My Expenses",
+        "CLIENT_ID": "409424832131-r320u1i1t91brqhmuemnk02mtfbk6bn3.apps.googleusercontent.com"
+      }
+    },
+    "https": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "applicationUrl": "https://localhost:7167;http://localhost:5160",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "JWT_SECRET": "This is a long secret key for JWT_SECRET",
+        "JWT_ISSUER": "My Expenses",
+        "CLIENT_ID": "409424832131-r320u1i1t91brqhmuemnk02mtfbk6bn3.apps.googleusercontent.com"
+      }
+    },
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "JWT_SECRET": "This is a long secret key for JWT_SECRET",
+        "JWT_ISSUER": "My Expenses",
+        "CLIENT_ID": "409424832131-r320u1i1t91brqhmuemnk02mtfbk6bn3.apps.googleusercontent.com"
+      }
+    }
+  }
+}
