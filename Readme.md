@@ -40,7 +40,6 @@ This Expense API is built using .NET 7 and provides a simple yet powerful soluti
       "ConnectionStrings": {
         "DefaultConnection": "YourConnectionStringHere"
       },
-      // ... other configurations
       "JWT_ISSUER"
       "JWT_SECRET"
       "CLIENT_ID"
